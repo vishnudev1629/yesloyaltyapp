@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Yes Yes Loyalty</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>yesyesloyaltyapp</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>sms</string>
+      <string>tel</string>
+    </array>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+
+    <!-- Permissions for photo library access -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to allow you to upload a profile photo to your Yes Yes Loyalty profile.</string>
+
+    <!-- Permissions for camera access -->
+    <key>NSCameraUsageDescription</key>
+    <string>This app requires access to your camera to scan QR codes shown by the cashier at Yes Yes Indian Supermarket for validating purchases. No QR codes are stored in the app.</string>
+
+    <!-- Location access for both when in use and always -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We require your location to show nearby stores and deals while the app is in use.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>We need your location even in the background to notify you about nearby Yes Yes stores and relevant offers.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We use your location for sending alerts when you're near Yes Yes stores, both while the app is in use and when it is running in the background.</string>
+
+    <!-- Firebase Notification setup -->
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <false/>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>remote-notification</string>
+    </array>
+    <key>NSPushNotificationUsageDescription</key>
+    <string>We need to send you notifications about offers, promotions, and order updates.</string>
+
+  </dict>
+</plist>

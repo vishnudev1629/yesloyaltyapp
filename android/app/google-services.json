@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031540201259",
+    "project_id": "yes-yes-loyalty",
+    "storage_bucket": "yes-yes-loyalty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031540201259:android:459467725663edcd4f976e",
+        "android_client_info": {
+          "package_name": "com.yesyesloyalty.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClZnv4kCznedqU3O7osM4S0SS54LjLQes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
